@@ -5,8 +5,6 @@ words =  ['demo', 'none', 'tied', 'evil', 'dome',
 
 result = {}
 
-/ asdf /
-
 words.each do |word|
   key = word.split('').sort.join
   if result.has_key?(key)
